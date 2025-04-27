@@ -1,87 +1,122 @@
-# Advanced-Encryption-Tool
+# 📂 Advanced-Encryption-Tool
 
-*COMPANY*: CODTECH IT SOLUTIONS PVT. LTD
+---
 
-*NAME*: AAKASH JAYDEV MAURYA
+**🏢 COMPANY**: CODTECH IT SOLUTIONS PVT. LTD
 
-*INTERN ID*: CT04WS67
+**👤 NAME**: AAKASH JAYDEV MAURYA
 
-*DOMAIN*: CYBER SECURITY & ETHICAL HACKING 
+**🆔 INTERN ID**: CT04WS67
 
-*DURATION*: 4 WEEKS
+**🌐 DOMAIN**: CYBER SECURITY & ETHICAL HACKING
 
-*MENTOR*: NEELA SANTOSH KUMAR
+**🕓 DURATION**: 4 WEEKS
 
-## DESCRIPTION OF THE TASK
+**👨‍🏫 MENTOR**: NEELA SANTOSH KUMAR
 
-Introduction:
-Data encryption is a pillar of modern cybersecurity practices. Protecting sensitive information through strong encryption techniques prevents unauthorized access and ensures privacy. For this task, a file encryption and decryption tool using AES-256 encryption was built using Python’s cryptography library.
+---
 
-Working Principle:
+## 📜 DESCRIPTION OF THE TASK
 
-Key Generation:
-A secure symmetric encryption key is generated and saved securely.
+---
 
-Encryption:
-Given a file, the tool encrypts its contents and saves a new .enc encrypted version.
+### 🔹 Introduction
 
-Decryption:
-Users can decrypt any .enc file back to its original form using the saved key.
+Data encryption is a pillar of modern cybersecurity practices.  
+Protecting sensitive information through strong encryption techniques prevents unauthorized access and ensures privacy.  
+For this task, a **file encryption and decryption tool** using **AES-256 encryption** was built using Python’s **cryptography** library.
 
-The tool uses Fernet encryption from the cryptography module, which internally applies AES-256.
+---
 
-Key Features:
+### 🔹 Working Principle
 
-AES-256 Standard Security:
-One of the strongest symmetric encryption algorithms known.
+- **Key Generation**:  
+  A secure symmetric encryption key is generated and saved securely.
 
-Easy Key Management:
-Keys are generated and stored in a separate secret.key file.
+- **Encryption**:  
+  Given a file, the tool encrypts its contents and saves a new `.enc` encrypted version.
 
-User Friendly CLI:
-Provides options for generating a key, encrypting, or decrypting files with minimal effort.
+- **Decryption**:  
+  Users can decrypt any `.enc` file back to its original form using the saved key.
 
-Importance: Encryption is essential to protect personal data, financial records, medical data, intellectual property, and more. Without strong encryption, data at rest or data in transit is extremely vulnerable to theft, espionage, or leakage.
+The tool uses **Fernet encryption** from the `cryptography` module, which internally applies AES-256.
 
-Use Cases:
+---
 
-Encrypting confidential documents on laptops.
+### 🔹 Key Features
 
-Securing backups on USB drives.
+- **AES-256 Standard Security**: One of the strongest symmetric encryption algorithms known.
+- **Easy Key Management**: Keys are generated and stored in a separate `secret.key` file.
+- **User-Friendly CLI**: Provides options for generating a key, encrypting, or decrypting files with minimal effort.
 
-Protecting sensitive logs and configuration files in cloud storage.
+---
 
-Technologies Used:
+### 🔹 Importance
 
-Python
+Encryption is essential to protect:
+- Personal data
+- Financial records
+- Medical data
+- Intellectual property
 
-Cryptography (Fernet - AES-256)
+Without strong encryption, data at rest or in transit becomes extremely vulnerable to theft, espionage, or leakage.
 
-Future Enhancements:
+---
 
-GUI (Graphical User Interface) for more friendly file selections.
+### 🔹 Use Cases
 
-Encrypt entire folders recursively.
+- Encrypting confidential documents on laptops.
+- Securing backups on USB drives.
+- Protecting sensitive logs and configuration files in cloud storage.
 
-Password-protected decryption keys.
+---
 
-Conclusion: This Advanced Encryption Tool successfully shows how to implement military-grade encryption standards in Python with simplicity and reliability. It makes high-end security accessible even for beginner-level users and emphasizes the importance of data confidentiality.
+### 🔹 Technologies Used
 
-# OUTPUT
-![Image](https://github.com/user-attachments/assets/49067e89-2eed-4e8d-970c-a75db2bbb9d2)
-![Image](https://github.com/user-attachments/assets/03c3103f-4e2c-49d1-98af-ca7d30ae8031)
-![Image](https://github.com/user-attachments/assets/2ba6f383-62ce-4c0d-955b-448bcf64c2e3)
+- Python
+- Cryptography (Fernet - AES-256)
 
-## ⚙️ How to run
+---
 
-Install required libraries:
+### 🔹 Future Enhancements
+
+- Develop a GUI (Graphical User Interface) for easier file selection.
+- Encrypt entire folders recursively.
+- Implement password-protected decryption keys.
+
+---
+
+### 🔹 Conclusion
+
+This **Advanced Encryption Tool** successfully shows how to implement military-grade encryption standards in Python with simplicity and reliability.  
+It makes high-end security accessible even for beginner-level users and emphasizes the importance of data confidentiality.
+
+---
+
+## 📷 OUTPUT
+
+![Image1](https://github.com/user-attachments/assets/49067e89-2eed-4e8d-970c-a75db2bbb9d2)  
+![Image2](https://github.com/user-attachments/assets/03c3103f-4e2c-49d1-98af-ca7d30ae8031)  
+![Image3](https://github.com/user-attachments/assets/2ba6f383-62ce-4c0d-955b-448bcf64c2e3)
+
+---
+
+## ⚙️ How to Run
+
+---
+
+### Step 1: Install Required Libraries
+
 ```bash
-pip install requests beautifulsoup4 cryptography
+pip install cryptography
 ```
 
-Then, run each script using:
+### Step 2: Run the Script
+
 ```bash
-python script_name.py
+python encryption_tool.py
 ```
 
-Enjoy! 🚀
+---
+
+# 🚀 Enjoy Secure File Encryption and Decryption!
